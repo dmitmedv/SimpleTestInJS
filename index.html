@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Чтобы на телефонах сайт отображался корректно -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Test</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Тест по математике</h1>
+
+<div class="question">
+    <p>1. Сколько будет 2 + 2?</p>
+    <input id="q1" type="text">
+</div>
+
+<div class="question">
+    <p>2. Сколько будет 1.5 + 1.6?</p>
+    <input id="q2" type="text">
+</div>
+
+<div class="question">
+    <p>3. Выберите четное число?</p>
+    <input type="radio" name="q3" value="-1"> -1
+    <input type="radio" name="q3" value="1"> 1
+    <input type="radio" name="q3" value="2"> 2
+    <input type="radio" name="q3" value="3"> 3
+</div>
+
+<div class="question">
+    <p>4. Выберите положительное число?</p>
+    <input type="radio" name="q4" value="-1"> -1
+    <input type="radio" name="q4" value="0"> 0
+    <input type="radio" name="q4" value="1"> 1
+    <input type="radio" name="q4" value="-2"> -2
+</div>
+
+<div class="question">
+    <p>5. Какой операции нет в математике?</p>
+    <select id="q5">
+        <option value="minus">Вычитание</option>
+        <option value="div">Деление</option>
+        <option value="mul">Умножение</option>
+        <option value="read">Чтение</option>
+    </select>
+</div>
+
+<div class="question">
+    <p>6. Каких чисел нет в математике?</p>
+    <select id="q6">
+        <option value="int">Целых</option>
+        <option value="float">Дробных</option>
+        <option value="nat">Натуральных</option>
+        <option value="art">Искусственных</option>
+    </select>
+</div>
+
+
+<div class="question">
+    <p>7. Какие числа делятся на 3 без остатка?</p>
+    <input id="q7v1" type="checkbox"> 9
+    <input id="q7v2" type="checkbox"> 6
+    <input id="q7v3" type="checkbox"> 3
+    <input id="q7v4" type="checkbox"> 1
+</div>
+
+<div class="question">
+    <p>8. Какие числа делятся на 5 без остатка?</p>
+    <input id="q8v1" type="checkbox"> 10
+    <input id="q8v2" type="checkbox"> 55
+    <input id="q8v3" type="checkbox"> 5
+    <input id="q8v4" type="checkbox"> 25
+</div>
+
+<div class="question">
+    <p>9. Какой символ обозначает квадратный корень?</p>
+    <input name="q9" value="squareroot" type="radio"> <img src="images/squareroot.png" height="50">
+    <input name="q9" value="pi" type="radio"> <img src="images/pi.png" height="50">
+    <input name="q9" value="integral" type="radio"> <img src="images/integral.png" height="50">
+    <input name="q9" value="justx" type="radio"> <img src="images/justx.png" height="50">
+</div>
+
+<div class="question">
+    <p>10. Выберите знак корня, интеграла и числа Пи.</p>
+    <input id="q10v1" value="" type="checkbox"> <img src="images/squareroot.png" height="50">
+    <input id="q10v2" value="" type="checkbox"> <img src="images/pi.png" height="50">
+    <input id="q10v3" value="" type="checkbox"> <img src="images/integral.png" height="50">
+    <input id="q10v4" value="" type="checkbox"> <img src="images/justx.png" height="50">
+</div>
+
+<button id="finish" type="button">Завершить тест</button>
+
+<script src="test.js"></script>
+</body>
+</html>
